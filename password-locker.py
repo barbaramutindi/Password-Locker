@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 import pyperclip
 from user_credentials import User, Credential
 
@@ -55,7 +56,7 @@ def copy_credential(site_name):
 
 def main():
 	print(' ')
-	print('Welcome to Password Locker.')
+	print('WELCOME TO PASSWORD LOCKER.')
 	while True:
 		print(' ')
 		print("-"*60)
@@ -149,10 +150,6 @@ def main():
 			print(' ')
 			print('Wrong option entered.Please try again.')
 				
-
-
-
-
 
 
 if __name__ == '__main__':

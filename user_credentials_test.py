@@ -79,7 +79,7 @@ class TestCredentials(unittest.TestCase):
 	# 	'''
 	# 	Test to check if the generate password generates 8 character long alphanumeric numbers
 	# 	'''
-	# 	self.twitter = Credential('Twitter','bernicetwili','')
+	# 	self.twitter = Credential('Twitter','barbaramutindi','')
 	# 	self.twitter.password = generate_password()
 	# 	self.assertEqual()
 
@@ -123,7 +123,7 @@ class TestCredentials(unittest.TestCase):
 				find_credential =Credential.find_by_site_name(credential.site_name)
 				return pyperclip.copy(find_credential.password)
 		Credential.copy_credential(self.new_credential.site_name)
-		self.assertEqual('pswd100',pyperclip.paste())
+		self.assertEqual('1234',pyperclip.paste())
 		print(pyperclip.paste())
 
 if __name__ == '__main__':
